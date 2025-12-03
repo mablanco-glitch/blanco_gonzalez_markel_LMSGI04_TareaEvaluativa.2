@@ -16,7 +16,7 @@
 
 			<body>
 				<header>
-					<img src= "../img/logotipo.png" alt= "Reservas" />
+					<img src= "img/logotipo.png" alt= "Reservas" />
 					<a href="zonas.xml">Zonas</a>
 					<a href="plantas.xml">Plantas</a>
 					<a href="actividades.xml">Actividades</a>
@@ -55,3 +55,4 @@
     </xsl:template>
     
 </xsl:stylesheet>
+
