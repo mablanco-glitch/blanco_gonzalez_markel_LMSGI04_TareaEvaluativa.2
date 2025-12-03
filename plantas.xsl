@@ -40,7 +40,7 @@
 	
 	<xsl:template match="planta[@familia = 'Orchidaceae']">
 		<article class="articulo">
-			<img class="imagen" src="img/OrquideaVioleta.jpg"/> img/OrquideaVioleta.jpg
+			<img class="imagen" src="img/OrquideaVioleta.jpg"/>
 			<h2><a href="https://es.wikipedia.org/wiki/Orchidaceae" target="_blank"><xsl:value-of select="nombreComun"/></a></h2>
 			<h3><xsl:value-of select="luminosidad"/></h3>
 		</article>
@@ -65,3 +65,4 @@
 	</xsl:template>
     
 </xsl:stylesheet>
+
